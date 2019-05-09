@@ -1,0 +1,16 @@
+{
+  "name": "bafu-ubd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "mkdir -p output",
+    "ubd0028-cube": "barnard59 run -v --format text/turtle --pipeline=http://environment.data.admin.ch/ubd/28/pipeline/cube pipeline.ttl",
+    "ubd0028-stations": "barnard59 run -v --format text/turtle --pipeline=http://environment.data.admin.ch/ubd/28/pipeline/stations pipeline.ttl"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "barnard59-main": "git+https://github.com/zazuko/barnard59-main.git#master"
+  }
+}

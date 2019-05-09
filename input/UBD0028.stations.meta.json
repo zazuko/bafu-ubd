@@ -1,0 +1,92 @@
+{
+ "@context": "http://www.w3.org/ns/csvw",
+ "tableSchema": {
+  "aboutUrl": "http://environment.data.admin.ch/ubd/28/station/{station_id}",
+  "columns": [
+   {
+    "titles": "station_id",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_id"
+   },
+   {
+    "titles": "station_name",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_name"
+   },
+   {
+    "titles": "station_measuring_network",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_measuring_network"
+   },
+   {
+    "titles": "station_canton",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_canton"
+   },
+   {
+    "titles": "station_y",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_y"
+   },
+   {
+    "titles": "station_x",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_x"
+   },
+   {
+    "titles": "station_E",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_E"
+   },
+   {
+    "titles": "station_N",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_N"
+   },
+   {
+    "titles": "station_altitude",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_altitude"
+   },
+   {
+    "titles": "area_type_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/area_type_de"
+   },
+   {
+    "titles": "station_type_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_type_de"
+   },
+   {
+    "titles": "pollutant_name_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/pollutant_name_de",
+    "suppressOutput":true
+   },
+   {
+    "titles": "pollutant_description_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/pollutant_description_de",
+    "suppressOutput":true
+   },
+   {
+    "titles": "aggregation_name_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/aggregation_name_de",
+    "suppressOutput":true
+   },
+   {
+    "titles": "limitvalue",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/limitvalue",
+    "suppressOutput":true
+   },
+   {
+    "titles": "year",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/year",
+    "suppressOutput":true
+   },
+   {
+    "titles": "value",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/value",
+    "suppressOutput":true
+   },
+   {
+    "titles": "unit_name_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/unit_name_de",
+    "suppressOutput":true
+   },
+   {
+    "titles": "value_remark",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/value_remark",
+    "suppressOutput":true
+   }
+  ]
+ }
+}

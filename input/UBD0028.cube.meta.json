@@ -1,0 +1,100 @@
+{
+ "@context": "http://www.w3.org/ns/csvw",
+ "tableSchema": {
+  "aboutUrl": "http://environment.data.admin.ch/ubd/28/cube/{station_id}-{pollutant_name_de}-{aggregation_name_de}",
+  "columns": [
+   {
+    "titles": "station_id",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_id",
+    "valueUrl": "http://environment.data.admin.ch/ubd/28/station/{station_id}"
+   },
+   {
+    "titles": "station_name",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_name",
+    "suppressOutput":true
+   },
+   {
+    "titles": "station_measuring_network",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_measuring_network",
+    "suppressOutput":true
+   },
+   {
+    "titles": "station_canton",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_canton",
+    "suppressOutput":true
+   },
+   {
+    "titles": "station_y",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_y",
+    "suppressOutput":true
+   },
+   {
+    "titles": "station_x",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_x",
+    "suppressOutput":true
+   },
+   {
+    "titles": "station_E",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_E",
+    "suppressOutput":true
+   },
+   {
+    "titles": "station_N",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_N",
+    "suppressOutput":true
+   },
+   {
+    "titles": "station_altitude",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_altitude",
+    "suppressOutput":true
+   },
+   {
+    "titles": "area_type_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/area_type_de",
+    "suppressOutput":true
+   },
+   {
+    "titles": "station_type_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/station_type_de",
+    "suppressOutput":true
+   },
+   {
+    "titles": "pollutant_name_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/pollutant_name_de"
+   },
+   {
+    "titles": "pollutant_description_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/pollutant_description_de",
+    "suppressOutput":true
+   },
+   {
+    "titles": "aggregation_name_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/aggregation_name_de"
+   },
+   {
+    "titles": "limitvalue",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/limitvalue",
+    "suppressOutput":true
+   },
+   {
+    "titles": "year",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/year",
+    "datatype": "gYear"
+   },
+   {
+    "titles": "value",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/value",
+    "datatype": "decimal"
+   },
+   {
+    "titles": "unit_name_de",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/unit_name_de"
+   },
+   {
+    "titles": "value_remark",
+    "propertyUrl": "http://environment.data.admin.ch/ubd/28/value_remark",
+    "suppressOutput":true
+   }
+  ]
+ }
+}
